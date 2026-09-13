@@ -1,0 +1,13 @@
+import './App.css'
+import MovieCard from './components/MovieCard'
+
+function App() {
+  return (
+	  <>
+	  <MovieCard movie={{title:"Ajinkya",release_date:'2023'}}/>
+	  <MovieCard movie={{title:"Ajinkya",release_date:'2023'}}/>
+	  </>
+  )
+}
+
+export default App
