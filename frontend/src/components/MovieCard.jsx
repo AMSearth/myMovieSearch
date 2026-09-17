@@ -1,3 +1,6 @@
+
+import "../css/MovieCard.css"
+
 function MovieCard({movie}){
 	function onFavClick(){
 		alert("clicked")
@@ -7,7 +10,7 @@ function MovieCard({movie}){
 			<div className="movie-post">
 				<img src={movie.url} alt={movie.title}/>
 				<div className="movie-overlay">
-					<button className="favorite-btn" onClick={onFavClick()}></button>
+					<button className="favorite-btn" onClick={onFavClick}>❤︎</button>
 				</div>
 			</div>
 			<div className="movie-info">
